@@ -1,0 +1,21 @@
+from customer import Customer
+from restaurant import Restaurant
+from review import Review
+
+customer1 = Customer("JB", "Tomashi")
+customer2 = Customer("Carlton", "Wambua")
+customer3 = Customer("Netan", "Kapaya")
+
+rest1 = Restaurant("KFC")
+rest2 = Restaurant("Chicken Inn")
+rest3 = Restaurant("Kenchic")
+
+review1 = Review(customer1, rest2, 8)
+review2 = Review(customer3, rest2, 7)
+review3 = Review(customer2, rest1, 10)
+
+# print(review1.customer)
+
+print(review3.rating)
+
+
