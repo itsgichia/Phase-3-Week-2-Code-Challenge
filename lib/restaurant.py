@@ -1,5 +1,4 @@
 from review import Review
-from customer import Customer
 class Restaurant:
     # Initialize a Restaurant object with an empty name
     def __init__(self, name:str):
