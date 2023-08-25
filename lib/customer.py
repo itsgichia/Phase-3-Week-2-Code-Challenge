@@ -33,6 +33,7 @@ class Customer:
                 customer_restaurants.add(review.get_restaurant().get_name())
         return customer_restaurants
     
-    def add_review(restaurant, rating):
-        pass
+    def add_review(self, restaurant, rating):
+        new_review = Review(self, restaurant, rating)
+        return new_review
 

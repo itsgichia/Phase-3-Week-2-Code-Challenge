@@ -39,7 +39,3 @@ class Restaurant:
         for review in restaurant_reviews():
             print(f"Rating: {review.rating}")
             
-    # def display_customers(self):
-    #     restaurant_reviews = self.reviews
-    #     for review in restaurant_reviews():
-    #         print(f"{review.customer().full_name()}")

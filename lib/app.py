@@ -5,6 +5,7 @@ from review import Review
 customer1 = Customer("JB", "Tomashi")
 customer2 = Customer("Carlton", "Wambua")
 customer3 = Customer("Netan", "Kapaya")
+customer4 = Customer("Yasmine", "Julia")
 
 rest1 = Restaurant("KFC")
 rest2 = Restaurant("Chicken Inn")
@@ -29,6 +30,9 @@ review3 = Review(customer1, rest1, 10)
 # Customer restaurants
 # print(customer1.restaurants())
 
+# Customer add_review
+# added_review = customer4.add_review(rest2, 9)
+# print(f"{added_review.restaurant.name}, {added_review.rating}")
 
 
 
