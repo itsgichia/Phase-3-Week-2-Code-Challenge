@@ -9,6 +9,7 @@ class Review:
         self.rating = rating
         self.all_reviews.append(self)
 
+    # Returns the rating for a restaurant
     def rating(self):
         return self.rating
 
@@ -17,12 +18,11 @@ class Review:
     def all(cls):
         return cls.all_reviews
     
-    # - `Review customer()`
-    # - returns the customer object for that review
-    # - Once a review is created, should not be able to change the customer
+    # Returns customer object for that review
     def customer(self):
         return self.customer
     
+    # Returns restaurant object for that review
     def restaurant(self):
         return self.restaurant
     
