@@ -12,7 +12,7 @@ rest3 = Restaurant("Kenchic")
 
 review1 = Review(customer1, rest2, 8)
 review2 = Review(customer3, rest2, 7)
-review3 = Review(customer2, rest1, 10)
+review3 = Review(customer1, rest1, 10)
 
 # print(review1.customer)
 # print(review2.restaurant)
@@ -25,6 +25,11 @@ review3 = Review(customer2, rest1, 10)
 
 # Restaurant customers
 # print(rest2.customers())
+
+# Customer restaurants
+# print(customer1.restaurants())
+
+
 
 
 

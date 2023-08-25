@@ -1,3 +1,5 @@
+from review import Review
+
 class Customer:
     all_customers = []
     def __init__(self, given_name, family_name):
@@ -24,6 +26,13 @@ class Customer:
     def all(cls):
         return cls.all_customers  
     
-    def restaurant():
-        pass
+    def restaurants(self):
+        customer_restaurants = set()
+        for review in Review.all_reviews:
+            if review.get_customer() == self:
+                customer_restaurants.add(review.get_restaurant().get_name())
+        return customer_restaurants
     
+    def add_review(restaurant, rating):
+        pass
+
