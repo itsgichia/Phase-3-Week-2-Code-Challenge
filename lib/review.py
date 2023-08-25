@@ -19,7 +19,7 @@ class Review:
         return cls.all_reviews
     
     # Returns customer object for that review
-    def customer(self):
+    def get_customer(self):
         return self.customer
     
     # Returns restaurant object for that review

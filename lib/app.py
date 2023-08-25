@@ -15,7 +15,17 @@ review2 = Review(customer3, rest2, 7)
 review3 = Review(customer2, rest1, 10)
 
 # print(review1.customer)
+# print(review2.restaurant)
+# print(review3.rating)
 
-print(review3.rating)
+# print(rest2.reviews)
+
+# Restaurant reviews
+# rest2.display_reviews()
+
+# Restaurant customers
+# print(rest2.customers())
+
+
 
 

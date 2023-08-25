@@ -24,3 +24,6 @@ class Customer:
     def all(cls):
         return cls.all_customers  
     
+    def restaurant():
+        pass
+    
