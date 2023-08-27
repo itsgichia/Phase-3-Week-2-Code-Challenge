@@ -1,22 +1,19 @@
 from review import Review
 class Restaurant:
-    # Initialize a Restaurant object with an empty name
+    
     def __init__(self, name:str):
         self._name = ""
         self.name = name 
 
-    # Getter method to retrieve the restaurant's name
     def get_name(self):
         return self._name
     
-    # Setter method to set the restaurant's name with input validation
     def set_name(self, name):
         if isinstance(name, str):
             self._name = name
         else:
             print("Restaurant name should be a string!")
-
-    # Name property created using get_name and set_name
+            
     name = property(get_name, set_name)
 
     def reviews(self):
@@ -38,3 +35,15 @@ class Restaurant:
         for review in restaurant_reviews():
             print(f"Rating: {review.rating}")
             
+    def average_star_rating(self):
+        total_ratings = 0
+        total_reviews = 0
+
+        for review in self.reviews():
+            total_ratings += review.rating
+            total_reviews += 1
+
+        if total_reviews == 0:
+            return 0
+        
+        return total_ratings / total_reviews

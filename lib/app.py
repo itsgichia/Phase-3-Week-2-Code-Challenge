@@ -2,11 +2,11 @@ from customer import Customer
 from restaurant import Restaurant
 from review import Review
 
-customer1 = Customer("JB", "Tomashi")
-customer2 = Customer("Carlton", "Wambua")
-customer3 = Customer("Netan", "Kapaya")
+customer1 = Customer("Sam", "Tomashi")
+customer2 = Customer("Anne", "Marie")
+customer3 = Customer("Mary", "Jane")
 customer4 = Customer("Yasmine", "Julia")
-customer5 = Customer("JB", "Jobs")
+customer5 = Customer("Sam", "Jobs")
 
 rest1 = Restaurant("KFC")
 rest2 = Restaurant("Chicken Inn")
@@ -39,10 +39,13 @@ review3 = Review(customer1, rest1, 10)
 # print(customer1.num_reviews())
 
 # Customer find_by_name
-# customer2.display_found_customer("Carlton Wambua")
+# customer2.display_found_customer("Anne Marie")
 
 # Customer find_all_by_given_name
-# Customer.display_matching_customers("JB")
+# Customer.display_matching_customers("Sam")
+
+# Restaurant average_star_rating
+# print(rest2.average_star_rating())
 
 
 
