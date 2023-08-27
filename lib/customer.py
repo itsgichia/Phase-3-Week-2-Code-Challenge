@@ -3,7 +3,7 @@ from review import Review
 class Customer:
 
     all_customers = []
-    
+
     def __init__(self, given_name, family_name):
         self.given_name = given_name
         self.family_name = family_name
@@ -33,7 +33,7 @@ class Customer:
         for review in Review.all_reviews:
             if review.get_customer() == self:
                 customer_restaurants.add(review.get_restaurant().get_name())
-        return customer_restaurants
+        return tuple(customer_restaurants)
     
     def add_review(self, restaurant, rating):
         new_review = Review(self, restaurant, rating)
