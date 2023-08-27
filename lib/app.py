@@ -34,6 +34,8 @@ review3 = Review(customer1, rest1, 10)
 # added_review = customer4.add_review(rest2, 9)
 # print(f"{added_review.restaurant.name}, {added_review.rating}")
 
+# Customer num_reviews
+# print(customer1.num_reviews())
 
 
 

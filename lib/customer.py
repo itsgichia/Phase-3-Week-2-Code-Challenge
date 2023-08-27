@@ -37,3 +37,9 @@ class Customer:
         new_review = Review(self, restaurant, rating)
         return new_review
 
+    def num_reviews(self):
+        count = 0
+        for review in Review.all_reviews:
+            if review.get_customer() == self:
+                count += 1
+        return count
