@@ -43,3 +43,18 @@ class Customer:
             if review.get_customer() == self:
                 count += 1
         return count
+    
+    @classmethod
+    def find_by_name(cls, name):
+        for customer in cls.all_customers:
+            if customer.full_name() == name:
+                return customer
+        return None
+    
+    def display_found_customer(self, name):
+        found_customer = Customer.find_by_name(name)
+        if found_customer:
+            print(f"Found customer: {found_customer.full_name()}")
+        else:
+            print("Customer not found.")
+    

@@ -37,6 +37,9 @@ review3 = Review(customer1, rest1, 10)
 # Customer num_reviews
 # print(customer1.num_reviews())
 
+# Customer find_by_name
+# customer2.display_found_customer("Carlton Wambua")
+
 
 
 
