@@ -6,6 +6,7 @@ customer1 = Customer("JB", "Tomashi")
 customer2 = Customer("Carlton", "Wambua")
 customer3 = Customer("Netan", "Kapaya")
 customer4 = Customer("Yasmine", "Julia")
+customer5 = Customer("JB", "Jobs")
 
 rest1 = Restaurant("KFC")
 rest2 = Restaurant("Chicken Inn")
@@ -39,6 +40,9 @@ review3 = Review(customer1, rest1, 10)
 
 # Customer find_by_name
 # customer2.display_found_customer("Carlton Wambua")
+
+# Customer find_all_by_given_name
+# Customer.display_matching_customers("JB")
 
 
 

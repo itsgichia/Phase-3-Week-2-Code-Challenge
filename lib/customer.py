@@ -57,4 +57,18 @@ class Customer:
             print(f"Found customer: {found_customer.full_name()}")
         else:
             print("Customer not found.")
+
+    @classmethod
+    def find_all_by_given_name(cls, name):
+        matching_customers = []
+        for customer in cls.all_customers:
+            if customer.given_name == name:
+                matching_customers.append(customer)
+        return matching_customers
+    
+    @classmethod
+    def display_matching_customers(cls, name):
+        matching_customers = cls.find_all_by_given_name(name)
+        for customer in matching_customers:
+            print(f'Matching customer is: {customer.full_name()}')
     
