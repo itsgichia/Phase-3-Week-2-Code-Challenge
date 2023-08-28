@@ -9,7 +9,7 @@ Below is a Yelp-style domain containing three models:
 - A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Review` belongs to a `Customer` and to a `Restaurant`.
 `Restaurant` - `Customer` is a many-to-many relationship.
 
-## Topics
+### Topics
 - Classes and Instances
 - Class and Instance Methods
 - Variable Scope
@@ -30,5 +30,5 @@ Python
 ### Support and Contact Details
 Github account: Nathan Mawira
 
-## License
+### License
 MIT License Copyright (c) {2023} Nathan Mawira
