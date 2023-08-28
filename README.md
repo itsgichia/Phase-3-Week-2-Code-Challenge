@@ -5,8 +5,8 @@ Below is a Yelp-style domain containing three models:
 - `Restaurant`
 - `Customer`
 - `Review`
-  
-- A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Review` belongs to a `Customer` and to a `Restaurant`.
+
+A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Review` belongs to a `Customer` and to a `Restaurant`.
 `Restaurant` - `Customer` is a many-to-many relationship.
 
 ### Topics
@@ -14,7 +14,7 @@ Below is a Yelp-style domain containing three models:
 - Class and Instance Methods
 - Variable Scope
 - Object Relationships
-- lists and list Methods
+- Lists and List Methods
 
 ### Project Setup
  1. Fork the project and clone it.
