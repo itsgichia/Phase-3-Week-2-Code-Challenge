@@ -6,7 +6,7 @@ Below is a Yelp-style domain containing three models:
 - `Customer`
 - `Review`
   
-A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Review` belongs to a `Customer` and to a `Restaurant`.
+- A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Review` belongs to a `Customer` and to a `Restaurant`.
 `Restaurant` - `Customer` is a many-to-many relationship.
 
 ### Project Setup
