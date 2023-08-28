@@ -9,6 +9,13 @@ Below is a Yelp-style domain containing three models:
 - A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Review` belongs to a `Customer` and to a `Restaurant`.
 `Restaurant` - `Customer` is a many-to-many relationship.
 
+## Topics
+- Classes and Instances
+- Class and Instance Methods
+- Variable Scope
+- Object Relationships
+- lists and list Methods
+
 ### Project Setup
  1. Fork the project and clone it.
  2. Open in terminal.
