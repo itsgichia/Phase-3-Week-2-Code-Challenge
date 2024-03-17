@@ -20,7 +20,7 @@ A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Revie
  1. Create a directory 
  2. Open in terminal and cd into the directory.
  3. Install the required dependencies using: `pip install pipenv`
- 4. Launch the virtual environment using: `pipenv --python 3.8 shell`
+ 4. Launch the virtual environment using: `pipenv --python 3.12.2 shell`
  5. Run the command `lib/app.py` to test the functionality of the various relationships.
 
 ### Technologies Used

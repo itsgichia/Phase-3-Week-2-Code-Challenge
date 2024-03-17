@@ -8,7 +8,7 @@ customer3 = Customer("Mary", "Jane")
 customer4 = Customer("Yasmine", "Julia")
 customer5 = Customer("Sam", "Jobs")
 
-rest1 = Restaurant("KFC")
+rest1 = Restaurant("Kentucky Fried Chicken")
 rest2 = Restaurant("Chicken Inn")
 rest3 = Restaurant("Kenchic")
 
