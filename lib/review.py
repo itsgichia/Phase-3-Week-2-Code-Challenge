@@ -6,7 +6,7 @@ class Review:
         self.customer = customer
         self.restaurant = restaurant
         self.rating = rating
-        self.all_reviews.append(self)
+        Review.all_reviews.append(self)
 
     def rating(self):
         return self.rating
