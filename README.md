@@ -17,8 +17,8 @@ A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Revie
 - Lists and List Methods
 
 ### Project Setup
- 1. Fork the project and clone it.
- 2. Open in terminal.
+ 1. Create a directory 
+ 2. Open in terminal and cd into the directory.
  3. Install the required dependencies using: `pip install pipenv`
  4. Launch the virtual environment using: `pipenv --python 3.8 shell`
  5. Run the command `lib/app.py` to test the functionality of the various relationships.
@@ -27,7 +27,7 @@ A `Restaurant` has many `Reviews`, a `Customer` has many `Review`s, and a `Revie
 Python
 
 ### Support and Contact Details
-Github account: Nathan Mawira
+Github account: itsgichia
 
 ### License
-MIT License Copyright (c) {2023} Nathan Mawira
+MIT License Copyright (c) {2023} Gichia
