@@ -2,6 +2,7 @@ from review import Review
 class Restaurant:
     
     def __init__(self, name:str):
+        self._name = ""
         self.name = name 
 
     def get_name(self):
